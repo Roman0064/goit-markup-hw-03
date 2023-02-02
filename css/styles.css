@@ -20,7 +20,31 @@ ul{
     margin: 0;
     padding-left: 0;
 }
-                    /* HEADER */
+.container{
+    width: 100%;
+    max-width: 1158px;
+    padding-left: 156px;
+    padding-right: 156px;
+    margin: 0 auto;
+    outline: 2px solid red;
+}
+                                                    /* HEADER */
+.nav-style{
+    display:inline-block;
+    width: 48px;
+    height: 24px;
+    margin-left: 40px;
+}
+.container-header {
+    display: flex;
+    align-items: center;
+}
+.site-nav{
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    
+}
 .site-nav .link{
     color: #2E2F42;
     font-weight: 500;
@@ -28,9 +52,6 @@ ul{
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
-}
-.nav-style{
-
 }
 .site-nav .link:hover,
 .site-nav .link:focus{
@@ -47,9 +68,10 @@ ul{
     line-height: 1.33;
     font-weight: 800;
     text-decoration: none;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    padding-left: 76px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
 }
 .contact{
     color:#434455;
@@ -62,14 +84,13 @@ ul{
 .contact:focus{
     color:#404BBF;
 }
-                    /* Hero */
+                                                              /* Hero */
 .hero{
     background-color: #2E2F42;
     color:#ffffff;
-    width: 1440px;
-    height: 600px;
-    left: 0px;
-    top: 72px;
+}
+.hero-container{
+    display: flex;
 }
 .hero-title{
     font-weight: 700;
@@ -101,7 +122,7 @@ ul{
 .hero-button:hover{
     background-color: #404BBF;
 }
-                    /* Button */
+                                                       /* Button */
 .button-primary{
     background-color: #F4F4FD;
     color: #4D5AE5;
@@ -117,7 +138,7 @@ ul{
     background-color: #404BBF;
     color:#FFFFFF;
 }
-                   /* Section */
+                                                        /* Section */
 
 .p-type-item{
     color:#434455;
@@ -140,7 +161,7 @@ ul{
     line-height: 1.11;
     letter-spacing: 0.02em;
 }
-                    /* Footer */
+                                                         /* Footer */
 .footer{
     background-color: #2E2F42;
 }
