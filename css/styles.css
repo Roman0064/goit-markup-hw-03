@@ -244,7 +244,7 @@ ul{
 }
                                                          /* Footer */
 .footer{
-    
+    padding-top: 120px;
 }
 .footer-style{
     flex-grow: 1;
