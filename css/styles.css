@@ -26,7 +26,6 @@ ul{
     padding-left: 156px;
     padding-right: 156px;
     margin: 0 auto;
-    outline: 2px solid red;
 }
                                                     /* HEADER */
 .nav-style{
@@ -38,11 +37,12 @@ ul{
 .container-header {
     display: flex;
     align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .site-nav{
     display: flex;
     align-items: center;
-    margin-right: auto;
     
 }
 .site-nav .link{
@@ -69,9 +69,7 @@ ul{
     font-weight: 800;
     text-decoration: none;
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
+    padding-right: 76px;
 }
 .contact{
     color:#434455;
@@ -79,18 +77,25 @@ ul{
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
+}.contact-one{
+    padding-right: 40px;
+}
+.contacts{
+    margin-left: 330px;
+    display: flex;
 }
 .contact:hover,
 .contact:focus{
     color:#404BBF;
 }
                                                               /* Hero */
-.hero{
-    background-color: #2E2F42;
-    color:#ffffff;
-}
 .hero-container{
+    background-color: #2E2F42;
+    color: #ffffff;
     display: flex;
+    flex-grow: 1;
+    padding-top: 188px;
+    padding-bottom: 292px;
 }
 .hero-title{
     font-weight: 700;
@@ -98,11 +103,8 @@ ul{
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    position: absolute;
-    width: 494px;
-    height: 120px;
-    left: 473px;
-    top: 260px;
+    box-sizing: content-box;
+    width: 400px;
 }
 .hero-button{
     background-color: #4D5AE5;
@@ -117,6 +119,7 @@ ul{
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    display: flex;
 
 }
 .hero-button:hover{
@@ -132,6 +135,16 @@ ul{
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    padding: 12px 24px;
+}
+.section-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding-top: 96px;
+    padding-bottom: 72px;
 }
 .button-primary:hover,
 .button-primary:focus{
@@ -146,6 +159,17 @@ ul{
     line-height: 1.5;
     letter-spacing: 0.02em;
     width: 264px;
+    padding-top: 8px;
+}
+.feature-style{
+    display: flex;
+    font-weight: wrap;
+    gap: 24px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.feature-container{
+    display: none;
 }
 .h3-type-item{
     font-family: 'Roboto';
@@ -156,6 +180,65 @@ ul{
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
+.work{
+    display: flex;
+    justify-content: center;
+}
+.work-images{
+    display: flex;
+    flex-direction: row;
+    padding-top: 72px;
+    padding-bottom: 120px;
+    gap: 24px;
+}
+.container-team{
+    background-color: #F4F4FD;
+}
+.section-team{
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+    padding-bottom: 72px;
+}
+.class-team{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+.team-name{
+   display: flex;
+   justify-content: center;
+   padding-top: 32px;
+}
+.team-specialty{
+    display: flex;
+    justify-content: center;
+    padding-top: 8px;
+}
+.h1-portfolio{
+    display: none;
+}
+.list-examples{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.h3-item{
+    padding-top: 32px;
+    padding-left: 16px;
+}
+.portfolio-p{
+    padding-left: 16px;
+    padding-bottom: 32px;
+    padding-top: 8px;
+}
+.section-card-one{
+    border: 1px solid #E7E9FC;
+    margin-bottom: 48px;
+}
+.example-h2{
+    display: none;
+}
 .h2-type-item{
     font-size: 36px;
     line-height: 1.11;
@@ -164,6 +247,7 @@ ul{
                                                          /* Footer */
 .footer{
     background-color: #2E2F42;
+    display: flex;
 }
 .footer-p-type{
     font-size: 16px;
