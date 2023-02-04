@@ -94,8 +94,14 @@ ul{
     background-color: #2E2F42;
     color: #ffffff;
 }
+.hero{
+    text-align: center;
+}
 .hero-style{
-    padding: 188px 473px;
+    padding-top: 188px;
+    padding-right: 473px;
+    padding-bottom: 188px;
+    padding-left: 473px;
 }
 .hero-title{
     font-weight: 700;
@@ -103,7 +109,9 @@ ul{
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    max-width: 494px;
+}
+.h1-hero{
+    width: 500px;
     padding-bottom: 48px;
 }
 .hero-button{
