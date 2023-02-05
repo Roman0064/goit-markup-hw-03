@@ -9,18 +9,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
-    <link rel=“stylesheet” href=“https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css”
-        integrity=“sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==”
-        crossorigin=“anonymous” 
-        referrerpolicy=“no-referrer” />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <!-- HEADER-->
-    <header>
+    <header class="header">
         <div class="container container-header">
             <nav class="site-nav">
                 <a href="./index.html" class="logo"><span class="logo-web">WEB</span>STUDIO</a>
-                <ul>
+                <ul class="nav-header-style">
                     <li class="nav-style"><a href="./index.html" class="link">Studio</a></li>
                     <li class="nav-style"><a href="./portfolio.html" class="link">Portfolio</a></li>
                     <li class="nav-style"><a href="" class="link">Contacts</a></li>
@@ -42,30 +41,30 @@
                 </div>
             </div>
     </section>
-    <section class="section">
+    <section class="section section-feature">
         <div class="container">
             <h2 class="feature-container">Feature</h2>
             <ul class="feature-style">
                 <li>
                     <h3 class="h3-type-item">Strategy</h3>
-                    <p class="p-type-item">Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
+                    <p class="p-type-item feature-p">Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
                 </li>
                 <li>
                     <h3 class="h3-type-item">Punctuality</h3>
-                    <p class="p-type-item">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
+                    <p class="p-type-item feature-p">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
                 </li>
                 <li>
                     <h3 class="h3-type-item">Diligence</h3>
-                    <p class="p-type-item">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
+                    <p class="p-type-item feature-p">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
                 </li>
                 <li>
                     <h3 class="h3-type-item">Technologies</h3>
-                    <p class="p-type-item">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
+                    <p class="p-type-item feature-p">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
                 </li>
             </ul>
         </div>
     </section>
-    <section class="section">
+    <section class="section sections-work">
         <div class="container">
             <h2 class="h2-type-item work">What are we doing</h2>
             <ul class="work-images">
@@ -81,29 +80,37 @@
             </ul>
         </div>
     </section>
-    <section class="section">
+    <section class="section section-team">
         <div class="container container-team">
-            <h2 class="h2-type-item section-team">Our Team</h2>
+            <h2 class="h2-type-item section-our-team">Our Team</h2>
             <ul class="class-team">
                 <li>
                     <img src="./images/teamimg1.jpg" alt="teamimage" width="264">
-                    <h3 class="h3-type-item team-name">Mark Guerrero</h3>
-                    <p class="p-type-item team-specialty">Product Designer</p>
+                    <div class="team-item">
+                        <h3 class="h3-type-item team-name">Mark Guerrero</h3>
+                        <p class="p-type-item team-specialty">Product Designer</p>
+                    </div>
                 </li>
                 <li>
                     <img src="./images/teamimg2.jpg" alt="teamimage" width="264">
-                    <h3 class="h3-type-item team-name">Tom Ford</h3>
-                    <p class="p-type-item team-specialty">Frontend Developer</p>
+                    <div class="team-item">
+                        <h3 class="h3-type-item team-name">Tom Ford</h3>
+                        <p class="p-type-item team-specialty">Frontend Developer</p>
+                    </div>
                 </li>
                 <li>
                     <img src="./images/teamimg3.jpg" alt="teamimage" width="264">
-                    <h3 class="h3-type-item team-name">Camila Garcia</h3>
-                    <p class="p-type-item team-specialty">Marketing</p>
+                    <div class="team-item">
+                        <h3 class="h3-type-item team-name">Camila Garcia</h3>
+                        <p class="p-type-item team-specialty">Marketing</p>
+                    </div>
                 </li>
                 <li>
                     <img src="./images/teamimg4.jpg" alt="teamimage" width="264">
-                    <h3 class="h3-type-item team-name">Daniel Wilson</h3>
-                    <p class="p-type-item team-specialty">UI Designer</p>
+                    <div class="team-item">
+                        <h3 class="h3-type-item team-name">Daniel Wilson</h3>
+                        <p class="p-type-item team-specialty">UI Designer</p>
+                    </div>
                 </li>
             </ul>
         </div>
