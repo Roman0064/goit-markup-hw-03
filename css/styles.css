@@ -34,17 +34,16 @@ ul{
 }
 .header{
     border-bottom: 1px solid #E7E9FC;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .container-header {
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 .site-nav{
     display: flex;
     align-items: center;
-    
 }
 .site-nav .link{
     color: #2E2F42;
@@ -96,9 +95,6 @@ ul{
     text-align: center;
     padding-top: 188px;
     padding-bottom: 188px;
-    width: 100%;
-    max-width: 1158px;
-    margin: 0 auto;
 }
 .hero-title{
     font-weight: 700;
@@ -208,9 +204,6 @@ ul{
 }
 .section-team{
     background-color: #F4F4FD;
-    height: 100%;
-    max-width: 1158px;
-    margin: 0 auto;
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -270,12 +263,8 @@ ul{
                                                          /* Footer */
 .footer{
     background-color: #2E2F42;
-    width: 100%;
-    max-width: 1158px;
-    margin: 0 auto;
     padding-top: 100px;
     padding-bottom: 100px;
-    padding-left: 15px;
 }
 .footer-style{
     width: 264px;
