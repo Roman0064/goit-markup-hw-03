@@ -90,16 +90,15 @@ ul{
     color:#404BBF;
 }
                                                               /* Hero */
-.hero-container{
+.hero{
     background-color: #2E2F42;
     color: #ffffff;
-}
-.hero{
     text-align: center;
-}
-.hero-style{
     padding-top: 188px;
     padding-bottom: 188px;
+    width: 100%;
+    max-width: 1158px;
+    margin: 0 auto;
 }
 .hero-title{
     font-weight: 700;
@@ -148,7 +147,6 @@ ul{
     display: flex;
     justify-content: center;
     gap: 24px;
-    margin-top: 96px;
     margin-bottom: 72px;
 }
 .button-primary:hover,
@@ -164,8 +162,10 @@ ul{
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+.feature-li{
+    width: 264px;
+}
 .feature-p{
-    width: 266px;
     margin-top: 8px;
 }
 .feature-style{
@@ -175,7 +175,7 @@ ul{
 }
 .section-feature{
     padding-top: 120px;
-    padding-bottom: 120px;
+    
     display: flex;
     justify-content: center;
 }
@@ -191,6 +191,10 @@ ul{
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
+.section-work{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 .work{
     display: flex;
     justify-content: center;
@@ -199,20 +203,21 @@ ul{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-top: 72px;
+    margin-top: 72px;
     gap: 24px;
 }
-.container-team{
-    background-color: #F4F4FD;
-}
 .section-team{
+    background-color: #F4F4FD;
+    height: 100%;
+    max-width: 1158px;
+    margin: 0 auto;
     padding-top: 120px;
+    padding-bottom: 120px;
 }
-.section-our-team{
+.h2-our-team{
     display: flex;
     justify-content: center;
-    padding-top: 120px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 .class-team{
     display: flex;
@@ -239,24 +244,20 @@ ul{
 .list-examples{
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 .text-card-position{
     padding-top: 32px;
     padding-bottom: 32px;
     padding-left: 16px;
+    border: 1px solid #E7E9FC;
 }
 .main-section{
     display: flex;
     justify-content: center;
-}
-.h3-item{
-}
-.portfolio-p{
-}
-.section-card-one{
-    border: 1px solid #E7E9FC;
-    margin-bottom: 48px;
+    padding-top: 96px;
+    padding-bottom: 120px;
 }
 .example-h2{
     display: none;
@@ -268,18 +269,16 @@ ul{
 }
                                                          /* Footer */
 .footer{
-    padding-top: 120px;
+    background-color: #2E2F42;
+    width: 100%;
+    max-width: 1158px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 15px;
 }
 .footer-style{
-    margin-top: 100px;
-    margin-right: 1020px;
-    margin-bottom: 100px;
-    margin-left: 156px;
-    min-width: 264px;
-}
-.footer-container{
-    background-color: #2E2F42;
-    display: flex;
+    width: 264px;
 }
 .footer-p-type{
     font-size: 16px;
